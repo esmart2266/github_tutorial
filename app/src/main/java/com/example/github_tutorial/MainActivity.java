@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getdata();
         login();
+        roshan();
     }
 
     public void getdata() {
@@ -21,5 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void login(){
         Toast.makeText(this, "Please Login", Toast.LENGTH_SHORT).show();
+    }
+
+    public void roshan(){
+        Toast.makeText(this, "Roshan", Toast.LENGTH_SHORT).show();
     }
 }
