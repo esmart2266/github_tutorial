@@ -12,9 +12,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getdata();
+        login();
     }
 
     public void getdata() {
         Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
+    }
+
+    public void login(){
+        Toast.makeText(this, "Please Login", Toast.LENGTH_SHORT).show();
     }
 }
